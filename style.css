@@ -1,0 +1,212 @@
+
+body {
+    margin: 0;
+    /* background-color: #1F2937; */
+    text-align: center;
+
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* header style  */
+.header-container{
+    display:flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-around;
+}
+/* this is awesome part */
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    min-height: fit-content;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+/* right side img  */
+.right{
+
+
+}
+/* holds left and right flex portion */
+.container{
+    background-color: #1F2937; 
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex: 1;
+    padding-left: 20px;
+
+}
+/* second portion of website */
+.container-two{
+    background-color: white;
+    padding-top: 10px;
+}
+
+ul{
+   color: #E5E7EB;
+   font-size: 18px;
+   list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+}
+
+/* header located about row of images */
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+p{
+    display: flex;
+   color: #E5E7EB;
+   font-size: 18px;
+   margin-top: 15px;
+   padding: 0px;
+   text-align: left;
+}
+/* button stuff.... */
+.first-button {
+    background-color: #3882F6; 
+    border: none;
+    border-radius: 18px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .last-button {
+    background-color: #3882F6;
+    border: solid;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    
+
+  }
+
+    
+
+/* change color of text in the bottom side of website */
+.randotxt{
+    color: #666a71;
+    display: block;
+    text-align: center;
+}
+
+/* flex the four images below */
+.two-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+
+}
+/* style for image and text */
+.randoimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* border around images */
+.imgb{
+    border: #1F2937;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}   
+
+.thor-head{
+    font-weight: 100;
+    color: #576a84;
+    padding-top: 60px;
+    font-style: italic;
+    font-size: 36px;
+    padding-left: 220px;
+    padding-right: 220px;
+
+}
+.thor{
+    padding-left: 220px;
+    padding-bottom: 40px;
+}
+
+.fo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    gap: ;
+
+    background-color: #3882F6;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.last{
+    font-size: 28px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
